@@ -1,0 +1,15 @@
+from flask import Flask, render_template, request
+app = Flask(__name__)
+
+import csv
+@app.route('/send',methods=['POST'])
+def send():
+
+
+
+    return render_template("amtbag1.html")
+
+
+
+if __name__ == "__main__":
+    app.run()

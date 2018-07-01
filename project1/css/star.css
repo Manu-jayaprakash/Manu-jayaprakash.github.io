@@ -1,0 +1,91 @@
+.half {
+  
+  position:relative;
+}
+
+.font{
+    font-size:9em;
+}
+
+.half:before {
+
+  
+    content: "\e006"; 
+    width: 48%;
+ 
+    display: block;
+  
+    position: absolute;
+     
+    overflow: hidden;
+
+}
+
+
+.half:after {
+  
+  content: "\e007"; 
+}
+
+
+
+.quad {
+  
+  position:relative;
+}
+
+.font{
+    font-size:9em;
+}
+
+.quad:before {
+
+  
+    content: "\e006"; 
+    width: 40%;
+ 
+    display: block;
+  
+    position: absolute;
+     
+    overflow: hidden;
+
+}
+
+
+.quad:after {
+  
+  content: "\e007"; 
+}
+
+
+
+
+.oct {
+  
+  position:relative;
+}
+
+.font{
+    font-size:9em;
+}
+
+.oct:before {
+
+  
+    content: "\e006"; 
+    width: 57%;
+ 
+    display: block;
+  
+    position: absolute;
+     
+    overflow: hidden;
+
+}
+
+
+.oct:after {
+  
+  content: "\e007"; 
+}
